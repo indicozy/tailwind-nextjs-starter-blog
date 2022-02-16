@@ -23,17 +23,17 @@ export default function Home({ posts }) {
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
              Научись программировать. Бесплатно.
           </h1>
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
              Создавай Проекты.
-          </h1>
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          </h2>
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
              Получай Сертификаты.
-          </h1>
+          </h2>
           <p className="text-xl leading-7 text-gray-500 dark:text-gray-300">
             {siteMetadata.description}
           </p>
                     <div class="mb-10 sm:mb-20">
-                        <button class="hover:bg-gray-200 lg:text-xl dark:bg-white bg-black transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700	focus:ring-white rounded text-gray-100 dark:text-gray-900 px-4 sm:px-8 py-1 sm:py-4 text-sm">Начать</button>
+                        <a href='https://edu.op-onai.kz' class="hover:bg-gray-200 lg:text-xl dark:bg-white bg-black transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700	focus:ring-white rounded text-gray-100 dark:text-gray-900 px-4 sm:px-8 py-1 sm:py-4 text-sm">Начать</a>
                     </div>
         </div>
 

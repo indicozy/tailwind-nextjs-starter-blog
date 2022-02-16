@@ -1,19 +1,9 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
-  {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Поисковик Курсов Афина',
+    description: `Данный проект был создан для быстрого и удобного поиска курсов и контента на многих языках. С помощью нее вы можете найти бесплатные и платные курсы, благодаря которым вы можете сопоставить реальную цену курсов которые предлагают люди.`,
+    imgSrc: '/static/images/blog/projects/athena.png',
+    href: '/blog/projects/athena',
   },
 ]
 

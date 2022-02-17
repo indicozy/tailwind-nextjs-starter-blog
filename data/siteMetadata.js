@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Op-Onai | Открытые Лекции и Курсы Программирования',
   author: 'indicozy',
-  headerTitle: 'Op-Onai',
+  headerTitle: 'op-onai',
   description: 'Открытые Лекции и Курсы Программирования',
   language: 'ru-ru',
   theme: 'system', // system, dark or light

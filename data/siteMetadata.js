@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Открытые Лекции и Курсы Программирования',
   language: 'ru-ru',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://op-onai.kz',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',

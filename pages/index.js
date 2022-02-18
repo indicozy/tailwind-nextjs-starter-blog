@@ -32,8 +32,8 @@ export default function Home({ posts }) {
           <p className="text-xl leading-7 text-gray-500 dark:text-gray-300">
             {siteMetadata.description}
           </p>
-                    <div class="mb-10 sm:mb-20">
-                        <a href='https://edu.op-onai.kz' class="hover:bg-gray-200 lg:text-xl dark:bg-white bg-black transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700	focus:ring-white rounded text-gray-100 dark:text-gray-900 px-4 sm:px-8 py-1 sm:py-4 text-sm">Начать</a>
+                    <div className="mb-10 sm:mb-20">
+                        <a href='https://edu.op-onai.kz' className="hover:bg-gray-200 lg:text-xl dark:bg-white bg-black transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700	focus:ring-white rounded text-gray-100 dark:text-gray-900 px-4 sm:px-8 py-1 sm:py-4 text-sm">Начать</a>
                     </div>
         </div>
 

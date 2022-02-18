@@ -1,5 +1,4 @@
 import '@/css/tailwind.css'
-import styles from '@/css/styles.css'
 import '@/css/prism.css'
 import 'katex/dist/katex.css'
 
@@ -21,6 +20,10 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <styles>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+        </styles>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />

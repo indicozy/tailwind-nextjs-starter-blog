@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Беркут Карлыбай
+avatar: /static/images/authors/indicozy.jpg
+occupation: Автор op-onai.kz
+company: Sociology@Nazarbayev University
+email: indicozy@protonmail.com
+# twitter: https://twitter.com/Twitter
+# linkedin: https://www.linkedin.com
+github: https://github.com/indicozy
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Привет! Я увлекаюсь программированием, открытыми технологиями и социологией. На момент 2022 года я учусь в Назарбаев Университете в Школе Социальных и Гуманитарных Наук, Социология. Выбрал данный факультет потому что хочу изучить и в дальнейшем развивать систему образования Казахстана.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Мне всегда хотелось создать свою школу программирования, в котором каждый сможет узнать что-то новое и (пере)кфалилфицироваться на программиста не смотря на его социально-экономический статус: любой человек, не смотря на опыт в разработке или финансовом положении сможет стать качественным разработчиком. Поэтому я открыл сайт с открытыми курсами [op-onai.kz](https://op-onai.kz).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+И зачем ты это читаешь? Давай учи прогу

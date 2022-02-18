@@ -20,10 +20,6 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <styles>
-          @import
-          url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
-        </styles>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />

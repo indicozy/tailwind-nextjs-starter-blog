@@ -23,7 +23,7 @@ module.exports = {
         mont: ['Montserrat Alternates', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
+        primary: colors.cyan,
         gray: colors.neutral,
       },
       typography: (theme) => ({

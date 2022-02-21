@@ -44,7 +44,7 @@ export default function Home({ posts }) {
           </a>
         </div>
       </div>
-      <div className="aspect-w-16 aspect-h-9 my-10 my-20 grid place-items-center">
+      <div className="aspect-w-16 aspect-h-9 mt-3 mb-20 grid place-items-center">
         <iframe
           src="https://www.youtube.com/embed/UBOj6rqRUME"
           frameBorder="0"
@@ -52,36 +52,36 @@ export default function Home({ posts }) {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="my-20">
-        <h2 className="text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+      <div className="my-10">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Курсы: Op-Onai camp
         </h2>
-        <div className="my-10 grid place-items-center">
-          <img alt="" className="px-10 pt-5" src="/static/images/edu-op-onai.png" />
+        <div className="my-3 grid place-items-center">
+          <img alt="" className="pt-5" src="/static/images/edu-op-onai.png" />
         </div>
         <p className="pb-5 text-xl leading-7 text-gray-500 dark:text-gray-300">
           100% Беслатные курсы с возможностью получения сертификатов. Смотри, изучай, проходи тесты
           и создавай проекты.
         </p>
       </div>
-      <div className="my-20">
-        <h2 className="text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+      <div className="my-10">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Сообщество: Discord, Форум
         </h2>
-        <div className="my-10 grid place-items-center">
-          <img alt="" className="px-10 pt-5" src="/static/images/forum-op-onai.png" />
+        <div className="my-3 grid place-items-center">
+          <img alt="" className="" src="/static/images/forum-op-onai.png" />
         </div>
         <p className="pb-5 text-xl leading-7 text-gray-500 dark:text-gray-300">
           Задавай вопросы, помогай другим. Находи единомышленников и начинайте проекты вместе.
         </p>
       </div>
-      <div className="my-20">
-        <h2 className="text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+      <div className="my-10">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Коллаборации: Agile + Design
         </h2>
         <div className="my-10 grid place-items-center">
-          <img alt="" className="px-10 pt-5" src="/static/images/agile-op-onai.png" />
-          <img alt="" className="px-10 pt-5" src="/static/images/design-op-onai.png" />
+          <img alt="" className="pt-5" src="/static/images/agile-op-onai.png" />
+          <img alt="" className="pt-5" src="/static/images/design-op-onai.png" />
         </div>
         <p className="pb-5 text-xl leading-7 text-gray-500 dark:text-gray-300">
           Запускай проекты в профессинальной платформе. Создавай цели, составляйте планы и стройте

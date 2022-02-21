@@ -38,7 +38,7 @@ export default function Home({ posts }) {
         <div className="mb-20 pt-10 sm:mb-20">
           <a
             href="https://edu.op-onai.kz"
-            className="rounded bg-black px-4 py-1 text-sm font-bold text-gray-100 ring-offset-indigo-700 transition duration-150 ease-in-out hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 dark:bg-white dark:text-gray-900 sm:px-8 sm:py-4 lg:text-xl"
+            className="rounded bg-black px-4 py-3 text-sm font-bold text-gray-100 ring-offset-indigo-700 transition duration-150 ease-in-out hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 dark:bg-white dark:text-gray-900 sm:px-8 lg:text-xl"
           >
             Начать
           </a>
@@ -79,7 +79,7 @@ export default function Home({ posts }) {
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Коллаборации: Agile + Design
         </h2>
-        <div className="my-10 grid place-items-center">
+        <div className="my-3 grid place-items-center">
           <img alt="" className="pt-5" src="/static/images/agile-op-onai.png" />
           <img alt="" className="pt-5" src="/static/images/design-op-onai.png" />
         </div>
@@ -89,7 +89,7 @@ export default function Home({ posts }) {
         </p>
       </div>
       <section className="container mx-auto flex flex-wrap">
-        <h2 className="my-10 text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+        <h2 className="my-10 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Чего ты ждешь? Начни <span className="underline decoration-primary-500">сейчас.</span>
         </h2>
         <div className="w-full p-4 md:w-1/2 lg:w-1/3 ">

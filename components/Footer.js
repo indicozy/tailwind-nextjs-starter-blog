@@ -22,7 +22,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://discord.gg/kag4mXFM7y"
+            href="https://github.com/indicozy"
             className="fill-gray-600 text-gray-400 transition-colors duration-200 hover:fill-primary-500 dark:fill-gray-300 dark:hover:fill-primary-400"
           >
             <svg
@@ -36,7 +36,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://discord.gg/kag4mXFM7y"
+            href="https://www.youtube.com/channel/UCWHR9bK6ki3fFSdOtKEohlg"
             className="fill-gray-600 text-gray-400 transition-colors duration-200 hover:fill-primary-500 dark:fill-gray-300 dark:hover:fill-primary-400"
           >
             <svg
@@ -50,7 +50,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://discord.gg/kag4mXFM7y"
+            href="https://instagram.com/oponaicamp"
             className="fill-gray-600 text-gray-400 transition-colors duration-200 hover:fill-primary-500 dark:fill-gray-300 dark:hover:fill-primary-400"
           >
             <svg
@@ -64,7 +64,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://discord.gg/kag4mXFM7y"
+            href="https://t.me/oponaicamp"
             className="fill-gray-600 text-gray-400 transition-colors duration-200 hover:fill-primary-500 dark:fill-gray-300 dark:hover:fill-primary-400"
           >
             <svg

@@ -52,43 +52,189 @@ export default function Home({ posts }) {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="my-10">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Курсы: Op-Onai camp
-        </h2>
-        <div className="my-3 grid place-items-center">
-          <img alt="" className="pt-5" src="/static/images/edu-op-onai.png" />
+      <section className="body-font text-gray-600">
+        <div className="container mx-auto flex flex-wrap py-24">
+          <div className="mb-10 w-full overflow-hidden rounded-lg lg:mb-0 lg:w-1/2">
+            <img
+              alt="feature"
+              className="h-full w-full object-cover object-center"
+              src="/static/images/edu-op-onai.png"
+            />
+          </div>
+          <div className="-mb-10 flex flex-col flex-wrap text-center lg:w-1/2 lg:py-6 lg:pl-12 lg:text-left">
+            <h2 className="mb-5 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-5xl md:leading-14">
+              Курсы: Op-Onai Camp
+            </h2>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  100% Бесплатно
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  Смотри обучающие видео, практикуйся сам, проходи мини тесты
+                </p>
+              </div>
+            </div>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  Асинхронное Обучение
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  Учись где угодно и когда угодно. Платформа адаптирована для мобильных приложении
+                </p>
+              </div>
+            </div>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  Получай Сертификаты
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  Завершай курсы и получай собственную страницу с пройденными курсами
+                </p>
+                <a
+                  href="https://edu.op-onai.kz"
+                  className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
+                >
+                  {' '}
+                  Войти{' '}
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <p className="pb-5 text-xl leading-7 text-gray-500 dark:text-gray-300">
-          100% Беслатные курсы с возможностью получения сертификатов. Смотри, изучай, проходи тесты
-          и создавай проекты.
-        </p>
-      </div>
-      <div className="my-10">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Сообщество: Discord, Форум
-        </h2>
-        <div className="my-3 grid place-items-center">
-          <img alt="" className="" src="/static/images/forum-op-onai.png" />
+      </section>
+      <section className="body-font text-gray-600">
+        <div className="container mx-auto flex flex-wrap py-24">
+          <div className="mb-10 w-full overflow-hidden rounded-lg lg:mb-0 lg:w-1/2">
+            <img
+              alt="feature"
+              className="h-full w-full object-cover object-center"
+              src="/static/images/forum-op-onai.png"
+            />
+          </div>
+          <div className="-mb-10 flex flex-col flex-wrap text-center lg:w-1/2 lg:py-6 lg:pl-12 lg:text-left">
+            <h2 className="mb-5 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-5xl md:leading-14">
+              Сообщество: Discord, Форум
+            </h2>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  Задавай вопросы
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  Находи ответы на любые вопросы связанные с IT
+                </p>
+              </div>
+            </div>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  Делись идеями и решениями
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  Помогай другим отвечая на вопросы, делясь решениями или ресурсами
+                </p>
+              </div>
+            </div>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  {' '}
+                  Оставляй отзывы{' '}
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  Поделись своим опытом обучения в op-onai.kz
+                </p>
+                <a
+                  href="https://forum.op-onai.kz"
+                  className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
+                >
+                  {' '}
+                  Форум{' '}
+                </a>
+                <a
+                  href="https://discord.gg/kag4mXFM7y"
+                  className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
+                >
+                  {' '}
+                  Discord{' '}
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <p className="pb-5 text-xl leading-7 text-gray-500 dark:text-gray-300">
-          Задавай вопросы, помогай другим. Находи единомышленников и начинайте проекты вместе.
-        </p>
-      </div>
-      <div className="my-10">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Коллаборации: Agile + Design
-        </h2>
-        <div className="my-3 grid place-items-center">
-          <img alt="" className="pt-5" src="/static/images/agile-op-onai.png" />
-          <img alt="" className="pt-5" src="/static/images/design-op-onai.png" />
+      </section>
+      <section className="body-font text-gray-600">
+        <div className="container mx-auto flex flex-wrap py-24">
+          <div className="mb-10 w-full overflow-hidden rounded-lg lg:mb-0 lg:w-1/2">
+            <img
+              alt="feature"
+              className="my-2 h-full w-full object-cover object-center"
+              src="/static/images/agile-op-onai.png"
+            />
+          </div>
+          <div className="-mb-10 flex flex-col flex-wrap text-center lg:w-1/2 lg:py-6 lg:pl-12 lg:text-left">
+            <h2 className="mb-5 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-5xl md:leading-14">
+              Коллаборации: Agile + Design
+            </h2>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  Запускай Проекты
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  Разделяйте задачи и следите за соучастниками в удобной платформе Scrum
+                </p>
+              </div>
+            </div>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  Рисуй Дизайны и Шаблоны
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  {' '}
+                  [Beta] Составляйте дизайн всей командой онлайн
+                </p>
+              </div>
+            </div>
+            <div className="mb-10 flex flex-col items-center lg:items-start">
+              <div className="flex-grow">
+                <h3 className="title-font mb-3 text-lg font-bold font-medium tracking-tight text-gray-900 dark:text-gray-100">
+                  {' '}
+                  Следи за Другими Проектами{' '}
+                </h3>
+                <p className="text-base text-xl leading-relaxed leading-7 text-gray-500 dark:text-gray-300">
+                  Смотри за примерами и успехами друзей в{' '}
+                  <a
+                    href="https://agile.op-onai.kz/discover"
+                    className="underline decoration-primary-500"
+                  >
+                    agile.op-onai.kz/discover
+                  </a>{' '}
+                </p>
+                <a
+                  href="https://agile.op-onai.kz"
+                  className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
+                >
+                  {' '}
+                  Agile{' '}
+                </a>
+                <a
+                  href="https://design.op-onai.kz"
+                  className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
+                >
+                  {' '}
+                  Design{' '}
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <p className="pb-5 text-xl leading-7 text-gray-500 dark:text-gray-300">
-          Запускай проекты в профессинальной платформе. Создавай цели, составляйте планы и стройте
-          приложения будущего.
-        </p>
-      </div>
-      <section className="container mx-auto flex flex-wrap">
+      </section>
+      <section className="container mx-auto mb-20 flex flex-wrap">
         <h2 className="my-10 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Чего ты ждешь? Начни <span className="underline decoration-primary-500">сейчас.</span>
         </h2>
@@ -189,7 +335,7 @@ export default function Home({ posts }) {
             </a>
           </div>
         </div>
-        <div className="w-full p-4 md:w-1/2 lg:w-1/3 ">
+        <div className="w-full md:w-1/2 lg:w-1/3 ">
           <div className="rounded-xl border border-gray-200 bg-white p-8 dark:border-gray-700 dark:bg-gray-900">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Lite</h2>
             <h5 className="py-2 text-5xl font-semibold text-gray-700 dark:text-gray-300">

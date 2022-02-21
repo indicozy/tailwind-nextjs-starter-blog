@@ -62,7 +62,7 @@ export default function Home({ posts }) {
             />
           </div>
           <div className="mb-10 flex flex-col flex-wrap text-left lg:w-1/2 lg:py-6 lg:pl-12">
-            <h2 className="mb-5 text-3xl font-bold text-gray-900 dark:text-gray-100 ">
+            <h2 className="mb-8 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Курсы: Op-Onai Camp
             </h2>
             <div className="mb-10 flex flex-col items-center lg:items-start">
@@ -117,7 +117,7 @@ export default function Home({ posts }) {
             />
           </div>
           <div className="mb-10 flex flex-col flex-wrap text-left lg:w-1/2 lg:py-6 lg:pl-12">
-            <h2 className="mb-5 text-3xl font-bold text-gray-900 dark:text-gray-100 ">
+            <h2 className="mb-8 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Сообщество: Discord + Форум
             </h2>
             <div className="mb-10 flex flex-col items-center lg:items-start">
@@ -180,7 +180,7 @@ export default function Home({ posts }) {
             />
           </div>
           <div className="mb-10 flex flex-col flex-wrap text-left lg:w-1/2 lg:py-6 lg:pl-12">
-            <h2 className="mb-5 text-3xl font-bold text-gray-900 dark:text-gray-100 ">
+            <h2 className="mb-8 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Проекты: Agile + Design
             </h2>
             <div className="mb-10 flex flex-col items-center lg:items-start">
@@ -238,248 +238,252 @@ export default function Home({ posts }) {
           </div>
         </div>
       </section>
-      <section className="container mx-auto mb-20 flex flex-wrap">
-        <h2 className="my-10 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Начни <span className="underline decoration-primary-500">сейчас.</span>
-        </h2>
-        <div className="w-full p-4 md:w-1/2 lg:w-1/3 ">
-          <div className="rounded-xl border border-gray-200 bg-white p-8 dark:border-gray-700 dark:bg-gray-900">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Free</h2>
-            <h5 className="py-2 text-5xl font-semibold text-gray-700 dark:text-gray-300">
-              0₸<small className="text-lg">/навсегда</small>
-            </h5>
-            <hr />
-            <div className="my-4 flex flex-col items-center text-base">
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Курсы &nbsp;{' '}
-                <a
-                  href="https://edu.op-onai.kz"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="underline decoration-primary-500"
-                >
-                  {' '}
-                  edu.op-onai.kz{' '}
-                </a>{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Сообщество в &nbsp;{' '}
-                <a
-                  href="https://discord.gg/kag4mXFM7y"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="underline decoration-primary-500"
-                >
-                  {' '}
-                  Discord{' '}
-                </a>{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Форум &nbsp;{' '}
-                <a
-                  href="https://forum.op-onai.kz/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="underline decoration-primary-500"
-                >
-                  {' '}
-                  forum.op-onai.kz{' '}
-                </a>{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Сертификаты от Курсов{' '}
-              </p>
-            </div>
-            <a
-              href="https://edu.op-onai.kz"
-              className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
-            >
-              {' '}
-              Начать{' '}
-            </a>
-          </div>
+      <section className="container">
+        <div>
+          <h2 className="my-10 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Начни путешествие в IT <span className="underline decoration-primary-500">сейчас.</span>
+          </h2>
         </div>
-        <div className="w-full md:w-1/2 lg:w-1/3 ">
-          <div className="rounded-xl border border-gray-200 bg-white p-8 dark:border-gray-700 dark:bg-gray-900">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Lite</h2>
-            <h5 className="py-2 text-5xl font-semibold text-gray-700 dark:text-gray-300">
-              8,500₸<small className="text-lg">/мес.</small>
-            </h5>
-            <hr />
-            <div className="my-4 flex flex-col items-center text-base">
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Включает пакет Free{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Поддержка менторов{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Совместная разработка{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Доступ к Agile-платформе{' '}
-              </p>
+        <div className=" mx-auto mb-20 flex flex-wrap">
+          <div className="w-full p-4 md:w-1/2 lg:w-1/3 ">
+            <div className="rounded-xl border border-gray-200 bg-white p-8 dark:border-gray-700 dark:bg-gray-900">
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Free</h2>
+              <h5 className="py-2 text-5xl font-semibold text-gray-700 dark:text-gray-300">
+                0₸<small className="text-lg">/навсегда</small>
+              </h5>
+              <hr />
+              <div className="my-4 flex flex-col items-center text-base">
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Курсы &nbsp;{' '}
+                  <a
+                    href="https://edu.op-onai.kz"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline decoration-primary-500"
+                  >
+                    {' '}
+                    edu.op-onai.kz{' '}
+                  </a>{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Сообщество в &nbsp;{' '}
+                  <a
+                    href="https://discord.gg/kag4mXFM7y"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline decoration-primary-500"
+                  >
+                    {' '}
+                    Discord{' '}
+                  </a>{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Форум &nbsp;{' '}
+                  <a
+                    href="https://forum.op-onai.kz/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline decoration-primary-500"
+                  >
+                    {' '}
+                    forum.op-onai.kz{' '}
+                  </a>{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Сертификаты от Курсов{' '}
+                </p>
+              </div>
+              <a
+                href="https://edu.op-onai.kz"
+                className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
+              >
+                {' '}
+                Начать{' '}
+              </a>
             </div>
-            <Link
-              href="/blog/official/lite-how-to"
-              className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
-            >
-              {' '}
-              Подписаться{' '}
-            </Link>
           </div>
-        </div>
-        <div className="w-full p-4 md:w-1/2 lg:w-1/3 ">
-          <div className="rounded-xl border border-gray-200 bg-white p-8 dark:border-gray-700 dark:bg-gray-900">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-              Pro (в разработке)
-            </h2>
-            <h5 className="py-2 text-5xl font-semibold text-gray-700 dark:text-gray-300">
-              {' '}
-              ???₸<small className="text-lg">/мес.</small>
-            </h5>
-            <hr />
-            <div className="my-4 flex flex-col items-center text-base">
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Включает пакет Lite{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Реальные проекты{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Разработка с менторами{' '}
-              </p>
-              <p className="my-1 flex w-full items-center">
-                <svg
-                  className="mr-2 text-primary-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewbox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>{' '}
-                Подготовка к рынку труда{' '}
-              </p>
+          <div className="w-full md:w-1/2 lg:w-1/3 ">
+            <div className="rounded-xl border border-gray-200 bg-white p-8 dark:border-gray-700 dark:bg-gray-900">
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Lite</h2>
+              <h5 className="py-2 text-5xl font-semibold text-gray-700 dark:text-gray-300">
+                8,500₸<small className="text-lg">/мес.</small>
+              </h5>
+              <hr />
+              <div className="my-4 flex flex-col items-center text-base">
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Включает пакет Free{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Поддержка менторов{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Совместная разработка{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Доступ к Agile-платформе{' '}
+                </p>
+              </div>
+              <Link
+                href="/blog/official/lite-how-to"
+                className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
+              >
+                {' '}
+                Подписаться{' '}
+              </Link>
             </div>
-            <a
-              href="#"
-              className="my-4 block w-full rounded bg-gray-500 px-4 py-2 text-center text-white hover:bg-gray-700"
-            >
-              {' '}
-              В Разработке{' '}
-            </a>
+          </div>
+          <div className="w-full p-4 md:w-1/2 lg:w-1/3 ">
+            <div className="rounded-xl border border-gray-200 bg-white p-8 dark:border-gray-700 dark:bg-gray-900">
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                Pro (в разработке)
+              </h2>
+              <h5 className="py-2 text-5xl font-semibold text-gray-700 dark:text-gray-300">
+                {' '}
+                ???₸<small className="text-lg">/мес.</small>
+              </h5>
+              <hr />
+              <div className="my-4 flex flex-col items-center text-base">
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Включает пакет Lite{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Реальные проекты{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Разработка с менторами{' '}
+                </p>
+                <p className="my-1 flex w-full items-center">
+                  <svg
+                    className="mr-2 text-primary-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewbox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                  </svg>{' '}
+                  Подготовка к рынку труда{' '}
+                </p>
+              </div>
+              <a
+                href="#"
+                className="my-4 block w-full rounded bg-gray-500 px-4 py-2 text-center text-white hover:bg-gray-700"
+              >
+                {' '}
+                В Разработке{' '}
+              </a>
+            </div>
           </div>
         </div>
       </section>

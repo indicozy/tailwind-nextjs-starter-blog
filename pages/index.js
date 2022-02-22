@@ -401,7 +401,7 @@ export default function Home({ posts }) {
                 </p>
               </div>
               <Link
-                href="https://forms.op-onai.kz/form/1"
+                href="https://forms.op-onai.kz/index.php/472461?lang=ru"
                 className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
               >
                 {' '}

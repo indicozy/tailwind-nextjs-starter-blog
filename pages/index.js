@@ -37,13 +37,13 @@ export default function Home({ posts }) {
           Получай Сертификаты.
         </h2>
         <p className="text-xl leading-7 text-gray-700 dark:text-gray-200">
-          Онлайн открытые курсы и сообщество о навыках в индустрии IT. Начни свое путешествие в
-          разработке с Op-Onai.
+          Открытые курсы и сообщество о навыках в индустрии IT. Начни свое путешествие в разработке
+          с Op-Onai.
         </p>
       </div>
       <div className="aspect-w-16 aspect-h-9 mt-3 mb-20 grid place-items-center">
         <iframe
-          src="https://www.youtube.com/embed/UBOj6rqRUME"
+          src="https://www.youtube.com/embed/uvp29P0SIUw"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -401,7 +401,7 @@ export default function Home({ posts }) {
                 </p>
               </div>
               <Link
-                href="https://forms.op-onai.kz/index.php/472461?lang=ru"
+                href="https://forms.op-onai.kz/index.php/973436?lang=ru"
                 className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
               >
                 {' '}

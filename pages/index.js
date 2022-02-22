@@ -218,18 +218,18 @@ export default function Home({ posts }) {
             </div>
             <div className="w-full ">
               <a
-                href="https://forum.op-onai.kz"
+                href="https://agile.op-onai.kz"
                 className="mt-4 block w-full rounded bg-primary-500 py-2 text-center text-white hover:bg-primary-700"
               >
                 {' '}
-                Форум{' '}
+                Agile{' '}
               </a>
               <a
-                href="https://discord.gg/kag4mXFM7y"
+                href="https://design.op-onai.kz"
                 className="mt-4 block w-full rounded bg-primary-500 py-2 text-center text-white hover:bg-primary-700"
               >
                 {' '}
-                Discord{' '}
+                Design{' '}
               </a>
             </div>
           </div>
@@ -238,7 +238,7 @@ export default function Home({ posts }) {
       <section className="container">
         <div>
           <h2 className="my-10 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Начни путешествие в IT <span className="underline decoration-primary-500">сейчас.</span>
+            Начни путешествие в IT <span className="underline decoration-primary-500">сейчас</span>.
           </h2>
         </div>
         <div className=" mx-auto mb-20 flex flex-wrap">
@@ -499,7 +499,7 @@ export default function Home({ posts }) {
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
-                      <dt className="sr-only">Published on</dt>
+                      <dt className="sr-only">Опубликовано в</dt>
                       <dd className="text-base font-medium leading-6 text-gray-700 dark:text-gray-200">
                         <time dateTime={date}>{formatDate(date)}</time>
                       </dd>

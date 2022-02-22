@@ -6,7 +6,7 @@ const siteMetadata = {
   language: 'ru-ru',
   theme: 'system', // system, dark or light
   siteUrl: 'https://op-onai.kz',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/indicozy/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',

@@ -4,9 +4,7 @@ date: '2022-02-23'
 tags: ['легкий', 'проект', 'python']
 draft: false
 authors: ['default']
-summary: 'The Time Traveller (for so it will be convenient to speak of him) was
-expounding a recondite matter to us. His pale grey eyes shone and
-twinkled, and his usually pale face was flushed and animated...'
+summary: 'В данном уроке вы научитесь работать с `random.choice()` в языке Python 3 создав игру Камень-Ножницы-Бумага на терминале.'
 ---
 
 _Источник_: [FreeCodeCamp](https://www.youtube.com/watch?v=8ext9G7xspg&t=1274s)

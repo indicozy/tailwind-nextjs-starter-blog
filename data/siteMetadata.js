@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'indicozy',
   headerTitle: 'op-onai',
   description: 'Открытые Лекции и Курсы Программирования',
-  language: 'ru-ru',
+  language: 'ru',
   theme: 'system', // system, dark or light
   siteUrl: 'https://op-onai.kz',
   siteRepo: 'https://github.com/indicozy/tailwind-nextjs-starter-blog',

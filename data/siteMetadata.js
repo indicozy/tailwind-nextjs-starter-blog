@@ -4,7 +4,7 @@ const siteMetadata = {
   headerTitle: 'op-onai',
   description: 'Открытые Лекции и Курсы Программирования',
   language: 'ru',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://op-onai.kz',
   siteRepo: 'https://github.com/indicozy/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',

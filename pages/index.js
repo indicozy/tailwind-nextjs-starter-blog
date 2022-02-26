@@ -342,7 +342,7 @@ export default function Home({ posts }) {
                 className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
               >
                 {' '}
-                Начать{' '}
+                Регистрация{' '}
               </a>
             </div>
           </div>
@@ -412,7 +412,7 @@ export default function Home({ posts }) {
                 className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-white hover:bg-primary-700"
               >
                 {' '}
-                Подписаться{' '}
+                Записаться{' '}
               </Link>
             </div>
           </div>

@@ -4,6 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import Script from 'next/script'
 // import Image from 'next/image'
 
 // import NewsletterForm from '@/components/NewsletterForm'
@@ -24,6 +25,12 @@ export default function Home({ posts }) {
   // )}
   return (
     <>
+      <Script
+        id="show-banner"
+        dangerouslySetInnerHTML={{
+          __html: `(function(d,t) { var BASE_URL="https://crm.op-onai.kz"; var g=d.createElement(t),s=d.getElementsByTagName(t)[0]; g.src=BASE_URL+"/packs/js/sdk.js"; g.defer = true; g.async = true; s.parentNode.insertBefore(g,s); g.onload=function(){ window.chatwootSDK.run({ websiteToken: 'kMAKsoHqGyXqmb5fgeToT9Ta', baseUrl: BASE_URL }) } })(document,"script");`,
+        }}
+      />
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="space-y-2 pt-6 pb-20 md:space-y-5">
         <h1 className="text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">

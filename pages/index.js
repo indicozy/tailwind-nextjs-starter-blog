@@ -50,7 +50,7 @@ export default function Home({ posts }) {
       </div>
       <div className="aspect-w-16 aspect-h-9 mt-3 mb-20 grid place-items-center">
         <iframe
-          src="https://www.youtube.com/embed/uvp29P0SIUw"
+          src="https://www.youtube.com/watch?v=cKqi7ZjFKTQ"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

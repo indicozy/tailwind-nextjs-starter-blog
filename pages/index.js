@@ -25,21 +25,30 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="space-y-2 pt-6 pb-20 md:space-y-5">
-        <h1 className="text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Научись программировать.{' '}
-          <span className="underline decoration-primary-500">Бесплатно</span>.
-        </h1>
-        <h2 className="text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Создавай Проекты.
-        </h2>
-        <h2 className="text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Получай Сертификаты.
-        </h2>
-        <p className="text-xl leading-7 text-gray-700 dark:text-gray-200">
-          Открытые курсы и сообщество о навыках в индустрии IT. Начни свое путешествие в разработке
-          с Op-Onai.
-        </p>
+      <div className="mt-6 mb-20">
+        <div className="space-y-2  md:space-y-5">
+          <h1 className="text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Научись программировать.{' '}
+          </h1>
+          <h2 className="text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Создавай Проекты <span className="underline decoration-primary-500">С Менторами</span>.
+          </h2>
+          <h2 className="text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Получай Сертификаты.
+          </h2>
+          <p className="text-xl leading-7 text-gray-700 dark:text-gray-200">
+            Открытые курсы и сообщество о навыках в индустрии IT. Начни свое путешествие в
+            разработке с Op-Onai.
+          </p>
+        </div>
+        <div className="my-10 py-4">
+          <a
+            href="#pricing"
+            className=" rounded bg-primary-500 px-6 py-4 text-center text-xl font-semibold text-white hover:bg-primary-700"
+          >
+            Начать
+          </a>
+        </div>
       </div>
       <div className="aspect-w-9 aspect-h-16 mt-3 mb-20 grid place-items-center sm:aspect-h-9 sm:aspect-w-16">
         <iframe
@@ -237,7 +246,10 @@ export default function Home({ posts }) {
       </section>
       <section className="container">
         <div>
-          <h2 className="my-10 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h2
+            id="pricing"
+            className="my-10 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
+          >
             Начни путешествие в IT <span className="underline decoration-primary-500">сейчас</span>.
           </h2>
         </div>

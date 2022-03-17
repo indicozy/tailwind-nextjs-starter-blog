@@ -50,7 +50,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://www.youtube.com/channel/UCWHR9bK6ki3fFSdOtKEohlg"
+            href="https://www.youtube.com/channel/UCWuZisT0SvyZSaLTtnR8aTA"
             className="fill-gray-600 text-gray-400 transition-colors duration-200 hover:fill-primary-500 dark:fill-gray-300 dark:hover:fill-primary-400"
           >
             <svg

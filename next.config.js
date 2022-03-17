@@ -11,7 +11,7 @@ const ContentSecurityPolicy = `
   media-src 'none';
   connect-src *;
   font-src 'self';
-  frame-src giscus.app youtube.com www.youtube.com
+  frame-src giscus.app youtube.com www.youtube.com crm.op-onai.kz
 `
 
 const securityHeaders = [

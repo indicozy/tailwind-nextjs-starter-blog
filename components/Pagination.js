@@ -9,7 +9,7 @@ export default function Pagination({ totalPages, currentPage }) {
       <nav className="flex justify-between">
         {!prevPage && (
           <button rel="previous" className="cursor-auto disabled:opacity-50" disabled={!prevPage}>
-            Previous
+            Пред
           </button>
         )}
         {prevPage && (
@@ -18,11 +18,11 @@ export default function Pagination({ totalPages, currentPage }) {
           </Link>
         )}
         <span>
-          {currentPage} of {totalPages}
+          {currentPage} из {totalPages}
         </span>
         {!nextPage && (
           <button rel="next" className="cursor-auto disabled:opacity-50" disabled={!nextPage}>
-            Next
+            След
           </button>
         )}
         {nextPage && (

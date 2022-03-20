@@ -25,12 +25,12 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
         mont: ['Montserrat Alternates', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.cyan,
-        gray: colors.neutral,
+        gray: colors.slate,
       },
       typography: (theme) => ({
         DEFAULT: {

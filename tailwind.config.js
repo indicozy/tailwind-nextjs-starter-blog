@@ -36,6 +36,7 @@ module.exports = {
         DEFAULT: {
           css: {
             color: theme('colors.gray.700'),
+            fontWeight: '500',
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
@@ -104,6 +105,7 @@ module.exports = {
         dark: {
           css: {
             color: theme('colors.gray.300'),
+            fontWeight: '500',
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {

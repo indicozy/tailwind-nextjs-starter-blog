@@ -41,7 +41,7 @@ export default function Home({ posts }) {
           <div className="my-10 flex py-4">
             <a
               href="#pricing"
-              className="mx-auto items-center rounded bg-primary-500 px-6 py-4 text-center text-xl font-semibold text-gray-100 hover:bg-primary-700 sm:mx-0"
+              className="text-md mx-auto items-center rounded bg-primary-500 px-4 py-4 text-center font-semibold text-gray-100 hover:bg-primary-700 sm:mx-0"
             >
               Начать Бесплатно
             </a>
@@ -54,50 +54,11 @@ export default function Home({ posts }) {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            ></iframe>
-            <iframe
-              src="https://www.youtube.com/embed/cKqi7ZjFKTQ"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              className="rounded-2xl"
             ></iframe>
           </div>
         </div>
       </div>
-
-      <section className="bg-gray-100 dark:bg-gray-900 lg:flex lg:justify-center lg:py-12">
-        <div className="bg-white dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:rounded-lg lg:shadow-lg">
-          <div className="lg:w-1/2">
-            <div
-              className="h-64 bg-cover lg:h-full lg:rounded-lg"
-              style={{
-                'background-image':
-                  "url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')",
-              }}
-            ></div>
-          </div>
-
-          <div className="max-w-xl px-6 py-12 lg:w-1/2 lg:max-w-5xl">
-            <h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">
-              Build Your New <span className="text-primary-600 dark:text-primary-400">Idea</span>
-            </h2>
-            <p className="mt-4 text-gray-600 dark:text-gray-400">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit
-              vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia
-              iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.
-            </p>
-
-            <div className="mt-8">
-              <a
-                href="#"
-                className="transform rounded-md bg-gray-900 px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 hover:bg-gray-700"
-              >
-                Start Now
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="bg-white dark:bg-gray-900">
         <div className="container mx-auto py-10">
@@ -245,12 +206,39 @@ export default function Home({ posts }) {
               </span>
 
               <h1 className="text-2xl font-semibold capitalize text-gray-700 dark:text-gray-100">
-                Взаимное Обучение
+                Проекты и Практика
               </h1>
 
               <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-                dignissimos vel non corrupti doloribus voluptatum eveniet
+                Разрабатывайте проекты с менторами, которые будут вашим Менеджером Проекта
+              </p>
+
+              <p className="text-gray-500 dark:text-gray-300">
+                Методика TDD (Разработка через Тесты) и Agile (Scrum)
+              </p>
+
+              <p className="text-gray-500 dark:text-gray-300">
+                Разрабатывайте проекты на платформах{' '}
+                <a
+                  href="https://agile.op-onai.kz"
+                  className="text-primary-500 underline dark:text-primary-400"
+                >
+                  Agile
+                </a>
+                ,{' '}
+                <a
+                  href="https://design.op-onai.kz"
+                  className="text-primary-500 underline dark:text-primary-400"
+                >
+                  Design
+                </a>{' '}
+                и{' '}
+                <a
+                  href="https://git.op-onai.kz"
+                  className="text-primary-500 underline dark:text-primary-400"
+                >
+                  Git
+                </a>
               </p>
 
               <a
@@ -278,14 +266,9 @@ export default function Home({ posts }) {
 
       <section className="bg-white dark:bg-gray-900">
         <div className="container mx-auto px-6 py-10">
-          <h1 className="text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">
-            explore our <br /> awesome{' '}
-            <span className="underline decoration-primary-500">Components</span>
+          <h1 className="text-center text-3xl font-bold capitalize text-gray-800 dark:text-white lg:text-4xl">
+            Кому подойдёт платформа Op-Onai?
           </h1>
-
-          <p className="mt-4 text-gray-500 dark:text-gray-300 xl:mt-6">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
-          </p>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-2 xl:gap-16">
             <div className="space-y-3">
@@ -293,46 +276,47 @@ export default function Home({ posts }) {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
                 >
+                  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                   <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+                    fillRule="evenodd"
+                    d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"
                   />
                 </svg>
               </span>
 
               <h1 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
-                Copy & paste components
+                Тем, кто хочет попробовать себя в программировании
               </h1>
 
               <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-                dignissimos vel non corrupti doloribus voluptatum eveniet
+                Наша бесплатная платформа делает обучение доступным для всех. Учитесь в своем темпе
+                и решайте задачи. Если вы застряли на одном моменте, не забрасывайте обучение.
+                Всегда есть форум и сообщество в Discord, которые будут рады помочь вам в вопросе.
               </p>
-
-              <a
-                href="#"
-                className="-mx-1 inline-flex transform items-center text-sm capitalize text-primary-500 transition-colors duration-200 hover:text-primary-600 hover:underline dark:text-primary-400 dark:hover:text-primary-500"
-              >
-                <span className="mx-1">read more</span>
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block rounded-full bg-primary-100 p-3 text-primary-500 dark:bg-primary-500 dark:text-white">
                 <svg
-                  className="mx-1 h-4 w-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
+                  <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
                 </svg>
-              </a>
+              </span>
+
+              <h1 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
+                Разработчикам, которые гуглят решения в YouTube
+              </h1>
+
+              <p className="text-gray-500 dark:text-gray-300">
+                Мы о вас тоже не забыли! Можете пользоваться нашими открытыми источниками чтобы
+                вспомнить некоторые темы или изучить что-то новое ;)
+              </p>
             </div>
 
             <div className="space-y-3">
@@ -340,46 +324,22 @@ export default function Home({ posts }) {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                  />
+                  <path d="M0 3a2 2 0 0 1 2-2h13.5a.5.5 0 0 1 0 1H15v2a1 1 0 0 1 1 1v8.5a1.5 1.5 0 0 1-1.5 1.5h-12A2.5 2.5 0 0 1 0 12.5V3zm1 1.732V12.5A1.5 1.5 0 0 0 2.5 14h12a.5.5 0 0 0 .5-.5V5H2a1.99 1.99 0 0 1-1-.268zM1 3a1 1 0 0 0 1 1h12V2H2a1 1 0 0 0-1 1z" />
                 </svg>
               </span>
 
               <h1 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
-                Zero Configrations
+                Социально уязвимые группы
               </h1>
-
               <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-                dignissimos vel non corrupti doloribus voluptatum eveniet
+                Для школьников, студентов, и других, кто желают стать программистами но не имеют
+                личных средств, мы предлагаем пройти курсы на нашей бесплатной платформе. Если вы
+                покажете свой прогресс, пишите нам и мы индивидуально проконсультируем и поможем в
+                развитии ваших навыков
               </p>
-
-              <a
-                href="#"
-                className="-mx-1 inline-flex transform items-center text-sm capitalize text-primary-500 transition-colors duration-200 hover:text-primary-600 hover:underline dark:text-primary-400 dark:hover:text-primary-500"
-              >
-                <span className="mx-1">read more</span>
-                <svg
-                  className="mx-1 h-4 w-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-              </a>
             </div>
 
             <div className="space-y-3">
@@ -387,110 +347,32 @@ export default function Home({ posts }) {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                  />
+                  <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z" />
                 </svg>
               </span>
 
               <h1 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
-                New Components Every month
+                Тем, кто хотят начать или сменить карьеру в IT
               </h1>
 
               <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-                dignissimos vel non corrupti doloribus voluptatum eveniet
+                Наши решения по проектному обучению продемонстрируют рабочую среду в IT.
+                Разрабатывайте код, завершайте тикеты в Agile, обсуждайте прогресс с менеджерами,
+                ломайте тесты, чините коммиты и сидите за экраном разбирая git merge - ощутите на
+                себе каково это быть программистом и стремительно набирайте опыт
               </p>
-
-              <a
-                href="#"
-                className="-mx-1 inline-flex transform items-center text-sm capitalize text-primary-500 transition-colors duration-200 hover:text-primary-600 hover:underline dark:text-primary-400 dark:hover:text-primary-500"
-              >
-                <span className="mx-1">read more</span>
-                <svg
-                  className="mx-1 h-4 w-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-
-            <div className="space-y-3">
-              <span className="inline-block rounded-full bg-primary-100 p-3 text-primary-500 dark:bg-primary-500 dark:text-white">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
-                  />
-                </svg>
-              </span>
-
-              <h1 className="text-2xl font-semibold capitalize text-gray-700 dark:text-white">
-                elegant Dark Mode
-              </h1>
-
-              <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-                dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
-
-              <a
-                href="#"
-                className="-mx-1 inline-flex transform items-center text-sm capitalize text-primary-500 transition-colors duration-200 hover:text-primary-600 hover:underline dark:text-primary-400 dark:hover:text-primary-500"
-              >
-                <span className="mx-1">read more</span>
-                <svg
-                  className="mx-1 h-4 w-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-              </a>
             </div>
           </div>
         </div>
       </section>
-
       <section className="bg-white dark:bg-gray-900">
         <div className="container mx-auto py-10">
           <h1 className="text-center text-3xl font-bold capitalize text-gray-800 dark:text-gray-100 lg:text-4xl">
             Как проходит обучение на платформе Op-Onai
           </h1>
-
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-4 xl:gap-8">
             <div className="mx-auto max-w-xs overflow-hidden rounded-lg bg-white pt-3 shadow-lg dark:bg-gray-800">
               <div className="px-4 py-2">
@@ -499,14 +381,19 @@ export default function Home({ posts }) {
                 </div>
                 <div className="h-48">
                   <h1 className="text-lg font-bold uppercase text-gray-800 dark:text-white">
-                    Смотрите материалы в удобное время
+                    Учите материалы в удобное время
                   </h1>
                   <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">
-                    Изучаете теорию и практикуетесь на задачах, приближённых к реальным.
+                    Изучаете теорию и практикуетесь на задачах, в нашей платформе{' '}
+                    <a
+                      href="https://edu.op-onai.kz"
+                      className="text-primary-500 underline dark:text-primary-400"
+                    >
+                      edu.op-onai.kz
+                    </a>
                   </p>
                 </div>
               </div>
-
               <img
                 className="mt-2 w-full object-cover"
                 src="/static/images/edu-op-onai.png"
@@ -520,17 +407,31 @@ export default function Home({ posts }) {
                 </div>
                 <div className="h-48">
                   <h1 className="text-lg font-bold uppercase text-gray-800 dark:text-white">
-                    TEST
+                    Находите друзей
                   </h1>
                   <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">
-                    Изучаете теорию и практикуетесь на задачах, приближённых к реальным.
+                    Заходите в
+                    <a
+                      href="https://discord.gg/kag4mXFM7y"
+                      className="text-primary-500 underline dark:text-primary-400"
+                    >
+                      Discord
+                    </a>{' '}
+                    и{' '}
+                    <a
+                      href="https://forum.op-onai.kz/"
+                      className="text-primary-500 underline dark:text-primary-400"
+                    >
+                      Форум
+                    </a>
+                    , находите новых друзей, спрашивайте вопросы и решайте задачи вместе
                   </p>
                 </div>
               </div>
 
               <img
                 className="mt-2 w-full object-cover"
-                src="/static/images/edu-op-onai.png"
+                src="/static/images/forum-op-onai.png"
                 alt="NIKE AIR"
               />
             </div>
@@ -541,17 +442,18 @@ export default function Home({ posts }) {
                 </div>
                 <div className="h-48">
                   <h1 className="text-lg font-bold uppercase text-gray-800 dark:text-white">
-                    Смотрите материалы в удобное время
+                    Решайте задачи
                   </h1>
                   <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">
-                    Изучаете теорию и практикуетесь на задачах, приближённых к реальным.
+                    Собирайтесь в команды, соревнуйтесь в скоростных решениях задач и набирайте опыт
+                    (В разработке)
                   </p>
                 </div>
               </div>
 
               <img
                 className="mt-2 w-full object-cover"
-                src="/static/images/edu-op-onai.png"
+                src="/static/images/design-op-onai.png"
                 alt="NIKE AIR"
               />
             </div>
@@ -562,17 +464,18 @@ export default function Home({ posts }) {
                 </div>
                 <div className="h-48">
                   <h1 className="text-lg font-bold uppercase text-gray-800 dark:text-white">
-                    Смотрите материалы в удобное время
+                    Разрабатывайте Проекты
                   </h1>
                   <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">
-                    Изучаете теорию и практикуетесь на задачах, приближённых к реальным.
+                    Создавайте проекты в платформе op-onai, и пользуйтесь полученными знаниями на
+                    практике, в среде схожей с рабочей средой в IT
                   </p>
                 </div>
               </div>
 
               <img
                 className="mt-2 w-full object-cover"
-                src="/static/images/edu-op-onai.png"
+                src="/static/images/agile-op-onai.png"
                 alt="NIKE AIR"
               />
             </div>
@@ -584,9 +487,9 @@ export default function Home({ posts }) {
         <div>
           <h2
             id="pricing"
-            className="my-10 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl md:text-4xl"
+            className="my-10 text-center text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl md:text-4xl"
           >
-            Начни кодить <span className="underline decoration-primary-500">сейчас</span>.
+            Начни кодить <span className="underline decoration-primary-500">сегодня</span>.
           </h2>
         </div>
         <div className=" mx-auto mb-20 flex flex-wrap">
@@ -691,7 +594,7 @@ export default function Home({ posts }) {
             <div className="rounded-xl bg-gray-100 p-8 dark:bg-gray-800">
               <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Lite</h2>
               <h5 className="py-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">
-                8,500₸<small className="text-lg">/мес.</small>
+                9,500₸<small className="text-lg">/мес.</small>
               </h5>
               <hr />
               <div className="my-4 flex flex-col items-center text-base">

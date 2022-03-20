@@ -379,7 +379,7 @@ export default function Home({ posts }) {
                 <div className="mb-3 flex h-8 w-8 flex-wrap items-center justify-center rounded-full bg-primary-200 text-center font-bold text-primary-700 dark:bg-primary-500 dark:text-gray-100">
                   <span className=" text-xl">1</span>
                 </div>
-                <div className="h-48">
+                <div className="md:h-40 lg:h-48">
                   <h1 className="text-lg font-bold uppercase text-gray-800 dark:text-white">
                     Учите материалы в удобное время
                   </h1>
@@ -405,7 +405,7 @@ export default function Home({ posts }) {
                 <div className="mb-3 flex h-8 w-8 flex-wrap items-center justify-center rounded-full bg-primary-200 text-center font-bold text-primary-700 dark:bg-primary-500 dark:text-gray-100">
                   <span className=" text-xl">2</span>
                 </div>
-                <div className="h-48">
+                <div className="md:h-40 lg:h-48">
                   <h1 className="text-lg font-bold uppercase text-gray-800 dark:text-white">
                     Находите друзей
                   </h1>
@@ -440,7 +440,7 @@ export default function Home({ posts }) {
                 <div className="mb-3 flex h-8 w-8 flex-wrap items-center justify-center rounded-full bg-primary-200 text-center font-bold text-primary-700 dark:bg-primary-500 dark:text-gray-100">
                   <span className=" text-xl">3</span>
                 </div>
-                <div className="h-48">
+                <div className="md:h-40 lg:h-48">
                   <h1 className="text-lg font-bold uppercase text-gray-800 dark:text-white">
                     Решайте задачи
                   </h1>
@@ -462,7 +462,7 @@ export default function Home({ posts }) {
                 <div className="mb-3 flex h-8 w-8 flex-wrap items-center justify-center rounded-full bg-primary-200 text-center font-bold text-primary-700 dark:bg-primary-500 dark:text-gray-100">
                   <span className=" text-xl">4</span>
                 </div>
-                <div className="h-48">
+                <div className="md:h-40 lg:h-48">
                   <h1 className="text-lg font-bold uppercase text-gray-800 dark:text-white">
                     Разрабатывайте Проекты
                   </h1>
@@ -489,7 +489,7 @@ export default function Home({ posts }) {
             id="pricing"
             className="my-10 text-center text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl md:text-4xl"
           >
-            Начни кодить <span className="underline decoration-primary-500">сегодня</span>.
+            Начните кодить <span className="underline decoration-primary-500">сегодня</span>.
           </h2>
         </div>
         <div className=" mx-auto mb-20 flex flex-wrap">

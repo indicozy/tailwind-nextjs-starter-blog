@@ -21,6 +21,12 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <script>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+          @import
+          url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+        </script>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Script

@@ -1,6 +1,5 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
-import '@/css/styles.css'
 import 'katex/dist/katex.css'
 import Script from 'next/script'
 

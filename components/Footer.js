@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="mx-auto max-w-screen-xl px-4">
         <div className="mx-auto flex max-w-xs items-center justify-between pt-8">
           <a
-            href="https://wa.me/77474217251"
+            href="https://api.whatsapp.com/send?phone=77474217251"
             className="fill-gray-600 text-gray-400 transition-colors duration-200 hover:fill-primary-500 dark:fill-gray-300 dark:hover:fill-primary-400"
           >
             <svg

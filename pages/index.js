@@ -594,7 +594,7 @@ export default function Home({ posts }) {
             <div className="rounded-xl bg-gray-100 p-8 dark:bg-gray-800">
               <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Lite</h2>
               <h5 className="py-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">
-                9,500₸<small className="text-lg">/мес.</small>
+                8,500₸<small className="text-lg">/мес.</small>
               </h5>
               <hr />
               <div className="my-4 flex flex-col items-center text-base">
@@ -652,7 +652,7 @@ export default function Home({ posts }) {
                 </p>
               </div>
               <Link
-                href="https://forms.op-onai.kz/index.php/973436?lang=ru"
+                href="#form"
                 className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-gray-100 hover:bg-primary-700"
               >
                 {' '}

@@ -1,10 +1,12 @@
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
+import Form from '@/components/Form'
 
 export default function Footer() {
   return (
     <footer className="w-full bg-white py-8 dark:bg-gray-900">
+      <Form />
       <div className="mx-auto max-w-screen-xl px-4">
         <div className="mx-auto flex max-w-xs items-center justify-between pt-8">
           <a

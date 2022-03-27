@@ -21,6 +21,23 @@ export default class FormSubmission extends React.Component {
   // }
 
   handleButtonClicked() {
+    function format_number(phone) {
+      var phone_formatted = ''
+      if (phone.charAt(0) == '+') {
+        phone_formatted = phone.substring(1)
+      } else if (phone.charAt(0) == '8') {
+        phone_formatted = '7' + phone.substring(1)
+      }
+
+      const reg = new RegExp('^[0-9]+$')
+      let pattern = /[0-9]*/g
+      phone_formatted = phone_formatted.match(pattern).join('')
+
+      // console.log("formatted number: %s", phone_formatted);
+
+      return phone_formatted
+    }
+
     event.preventDefault()
     var xhr = new XMLHttpRequest()
     xhr.open('POST', 'https://forms-api.op-onai.kz', true)
@@ -64,21 +81,20 @@ export default class FormSubmission extends React.Component {
         )
     }
 
-    const validatePhone = (phone) => {
-      return String(phone)
-        .toLowerCase()
-        .match(/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im) // eslint-disable-line
+    const validatePhone = (phone_f) => {
+      return phone_f.length < 14 && phone_f.length > 9
     }
 
     var name = event.target.name.value
     var email = event.target.email.value.toLowerCase()
     var phone = event.target.phone.value
+    var phone_f = format_number(phone)
     if (!validateEmail(email)) {
       ReactDOM.render(
         <Notification status="error" text="Неверная Почта, пожалуйста, перепроверьте адрес." />,
         document.getElementById('form-notification')
       )
-    } else if (!validatePhone(phone)) {
+    } else if (!validatePhone(phone_f)) {
       ReactDOM.render(
         <Notification status="error" text="Неверный Номер, формат должен быть +7 777 123 12 12." />,
         document.getElementById('form-notification')

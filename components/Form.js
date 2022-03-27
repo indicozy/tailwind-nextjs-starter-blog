@@ -85,9 +85,9 @@ export default class FormSubmission extends React.Component {
       return phone_f.length < 14 && phone_f.length > 9
     }
 
-    var name = event.target.name.value
-    var email = event.target.email.value.toLowerCase()
-    var phone = event.target.phone.value
+    var name = event.target.name.value.trim()
+    var email = event.target.email.value.toLowerCase().trim()
+    var phone = event.target.phone.value.trim()
     var phone_f = format_number(phone)
     if (!validateEmail(email)) {
       ReactDOM.render(
@@ -150,7 +150,7 @@ export default class FormSubmission extends React.Component {
                       type="text"
                       name="email"
                       id="email"
-                      className=" w-full flex-1 appearance-none rounded-r-lg border border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600"
+                      className="w-full flex-1 appearance-none rounded-r-lg border border-gray-300 bg-white py-2 px-4 text-sm text-gray-700 placeholder-gray-400 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600"
                       placeholder="Ваша почта"
                     />
                   </div>
@@ -175,7 +175,7 @@ export default class FormSubmission extends React.Component {
                       type="text"
                       name="phone"
                       id="phone"
-                      className=" w-full flex-1 appearance-none rounded-r-lg border border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600"
+                      className="w-full flex-1 appearance-none rounded-r-lg border border-gray-300 bg-white py-2 px-4 text-sm text-gray-700 placeholder-gray-400 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600"
                       placeholder="+7 777 123 12 12"
                     />
                   </div>
@@ -197,7 +197,7 @@ export default class FormSubmission extends React.Component {
                       type="text"
                       name="name"
                       id="name"
-                      className=" w-full flex-1 appearance-none rounded-r-lg border border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600"
+                      className="w-full flex-1 appearance-none rounded-r-lg border border-gray-300 bg-white py-2 px-4 text-sm text-gray-700 placeholder-gray-400 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600"
                       placeholder="Ваше Имя"
                     />
                   </div>

@@ -4,7 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-// import Image from 'next/image'
+import Image from 'next/image'
 
 // import NewsletterForm from '@/components/NewsletterForm'
 
@@ -406,11 +406,15 @@ export default function Home({ posts }) {
                   </p>
                 </div>
               </div>
-              <img
-                className="mt-2 w-full object-cover"
-                src="/static/images/edu-op-onai.png"
-                alt="NIKE AIR"
-              />
+              <div>
+                <Image
+                  className="mt-2 w-full object-cover"
+                  src="/static/images/edu-op-onai.png"
+                  alt="NIKE AIR"
+                  width={800}
+                  height={450}
+                />
+              </div>
             </div>
             <div className="mx-auto max-w-xs overflow-hidden rounded-lg bg-white pt-3 shadow-lg dark:bg-gray-800">
               <div className="px-4 py-2">
@@ -441,11 +445,15 @@ export default function Home({ posts }) {
                 </div>
               </div>
 
-              <img
-                className="mt-2 w-full object-cover"
-                src="/static/images/forum-op-onai.png"
-                alt="NIKE AIR"
-              />
+              <div>
+                <Image
+                  className="mt-2 w-full object-cover"
+                  src="/static/images/forum-op-onai.png"
+                  alt="NIKE AIR"
+                  width={800}
+                  height={450}
+                />
+              </div>
             </div>
             <div className="mx-auto max-w-xs overflow-hidden rounded-lg bg-white pt-3 shadow-lg dark:bg-gray-800">
               <div className="px-4 py-2">
@@ -463,11 +471,15 @@ export default function Home({ posts }) {
                 </div>
               </div>
 
-              <img
-                className="mt-2 w-full object-cover"
-                src="/static/images/design-op-onai.png"
-                alt="NIKE AIR"
-              />
+              <div>
+                <Image
+                  className="mt-2 w-full object-cover"
+                  src="/static/images/design-op-onai.png"
+                  alt="NIKE AIR"
+                  width={800}
+                  height={450}
+                />
+              </div>
             </div>
             <div className="mx-auto max-w-xs overflow-hidden rounded-lg bg-white pt-3 shadow-lg dark:bg-gray-800">
               <div className="px-4 py-2">
@@ -485,11 +497,15 @@ export default function Home({ posts }) {
                 </div>
               </div>
 
-              <img
-                className="mt-2 w-full object-cover"
-                src="/static/images/agile-op-onai.png"
-                alt="NIKE AIR"
-              />
+              <div>
+                <Image
+                  className="mt-2 w-full object-cover"
+                  src="/static/images/agile-op-onai.png"
+                  alt="NIKE AIR"
+                  width={800}
+                  height={450}
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -60,14 +60,16 @@ export default function Home({ posts }) {
           </div>
         </div>
         <div className="w-full overflow-hidden rounded-lg p-0 lg:w-1/2 lg:p-10">
-          <div className="aspect-h-16 aspect-w-9">
-            <iframe
-              src="https://www.youtube.com/embed/cKqi7ZjFKTQ"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="rounded-2xl"
-            ></iframe>
+          <div className="w-4/5">
+            <div className="aspect-h-16 aspect-w-9 h-4/5 w-full">
+              <iframe
+                src="https://www.youtube.com/embed/cKqi7ZjFKTQ"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-2xl"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>

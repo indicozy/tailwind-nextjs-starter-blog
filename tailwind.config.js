@@ -24,6 +24,7 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
         mont: ['Montserrat Alternates', ...defaultTheme.fontFamily.sans],
+        inter: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.cyan,
@@ -32,11 +33,11 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            fontFamily: 'Montserrat',
+            fontFamily: 'Inter',
             color: theme('colors.gray.800'),
             fontWeight: '400',
             fontSize: '16px',
-            lineHeight: '1.6',
+            lineHeight: '2',
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
@@ -44,34 +45,27 @@ module.exports = {
               },
               code: { color: theme('colors.primary.400') },
             },
-            h1: {
+            'h1,h2,h3,h4,h5,h6': {
               fontFamily: 'Montserrat',
+              margin: '30px 0px 10px 0px',
+              letterSpacing: theme('letterSpacing.tight'),
+              color: theme('colors.gray.900'),
+            },
+            h1: {
               fontWeight: '700',
               fontSize: '32px',
-              margin: '30px 0px 0px 0px',
-              letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.900'),
             },
             h2: {
-              fontFamily: 'Montserrat',
               fontWeight: '600',
               fontSize: '28px',
-              margin: '30px 0px 0px 0px',
-              letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.900'),
             },
             h3: {
-              fontFamily: 'Montserrat',
               fontWeight: '800',
               fontSize: '22px',
-              margin: '30px 0px 0px 0px',
-              color: theme('colors.gray.900'),
             },
             'h4,h5,h6': {
-              margin: '20px 0px 0px 0px',
               fontSize: '18px',
               fontWeight: '800',
-              color: theme('colors.gray.900'),
             },
             pre: {
               backgroundColor: theme('colors.gray.800'),
@@ -116,7 +110,7 @@ module.exports = {
         },
         dark: {
           css: {
-            color: theme('colors.gray.200'),
+            color: theme('colors.gray.300'),
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {

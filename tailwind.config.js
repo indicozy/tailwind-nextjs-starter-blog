@@ -24,7 +24,6 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
         mont: ['Montserrat Alternates', ...defaultTheme.fontFamily.sans],
-        inter: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.cyan,
@@ -33,7 +32,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            fontFamily: 'Inter',
+            fontFamily: 'Montserrat',
             color: theme('colors.gray.800'),
             fontWeight: '400',
             fontSize: '16px',

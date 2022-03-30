@@ -24,6 +24,7 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
         mont: ['Montserrat Alternates', ...defaultTheme.fontFamily.sans],
+        robo: ['Roboto', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.cyan,
@@ -32,8 +33,11 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            fontFamily: 'Roboto',
             color: theme('colors.gray.700'),
-            fontWeight: '500',
+            fontWeight: '400',
+            fontSize: '16px',
+            lineHeight: '1.6',
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
@@ -42,20 +46,32 @@ module.exports = {
               code: { color: theme('colors.primary.400') },
             },
             h1: {
+              fontFamily: 'Montserrat',
               fontWeight: '700',
+              fontSize: '32px',
+              margin: '30px 0px 0px 0px',
               letterSpacing: theme('letterSpacing.tight'),
               color: theme('colors.gray.900'),
             },
             h2: {
-              fontWeight: '700',
+              fontFamily: 'Montserrat',
+              fontWeight: '600',
+              fontSize: '28px',
+              margin: '30px 0px 0px 0px',
               letterSpacing: theme('letterSpacing.tight'),
               color: theme('colors.gray.900'),
             },
             h3: {
-              fontWeight: '600',
+              fontFamily: 'Montserrat',
+              fontWeight: '800',
+              fontSize: '22px',
+              margin: '30px 0px 0px 0px',
               color: theme('colors.gray.900'),
             },
             'h4,h5,h6': {
+              margin: '20px 0px 0px 0px',
+              fontSize: '18px',
+              fontWeight: '800',
               color: theme('colors.gray.900'),
             },
             pre: {
@@ -102,7 +118,6 @@ module.exports = {
         dark: {
           css: {
             color: theme('colors.gray.300'),
-            fontWeight: '500',
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
@@ -111,17 +126,14 @@ module.exports = {
               code: { color: theme('colors.primary.400') },
             },
             h1: {
-              fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
               color: theme('colors.gray.100'),
             },
             h2: {
-              fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
               color: theme('colors.gray.100'),
             },
             h3: {
-              fontWeight: '600',
               color: theme('colors.gray.100'),
             },
             'h4,h5,h6': {
@@ -138,7 +150,6 @@ module.exports = {
             },
             hr: { borderColor: theme('colors.gray.700') },
             'ol li::marker': {
-              fontWeight: '600',
               color: theme('colors.gray.400'),
             },
             'ul li::marker': {

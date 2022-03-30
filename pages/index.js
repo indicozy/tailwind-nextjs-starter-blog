@@ -38,7 +38,7 @@ export default function Home({ posts }) {
       </div>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="container mx-auto flex flex-wrap items-center justify-center py-10 lg:py-0 lg:pb-5">
-        <div className="mb-10 w-full overflow-hidden rounded-lg pr-5 align-middle lg:mb-0 lg:w-1/2">
+        <div className="mb-10 w-full overflow-hidden rounded-lg pr-5 align-middle lg:mb-0 lg:w-3/5">
           <h1 className="leading-20 md:leading-20 mb-8 text-3xl font-bold tracking-tight text-gray-800 dark:text-gray-100 sm:text-4xl md:text-4xl ">
             Учись <span className="decoration-6 underline decoration-primary-500">Кодить</span>
             <br />
@@ -59,17 +59,15 @@ export default function Home({ posts }) {
             </a>
           </div>
         </div>
-        <div className="w-full overflow-hidden rounded-lg p-0 lg:w-1/2 lg:p-10">
-          <div className="w-4/5">
-            <div className="aspect-h-16 aspect-w-9 h-4/5 w-full">
-              <iframe
-                src="https://www.youtube.com/embed/cKqi7ZjFKTQ"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-2xl"
-              ></iframe>
-            </div>
+        <div className="flex w-full flex-wrap items-end overflow-hidden rounded-lg p-0 lg:w-2/5 lg:p-5	">
+          <div className="aspect-h-16 aspect-w-9 w-full">
+            <iframe
+              src="https://www.youtube.com/embed/cKqi7ZjFKTQ"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="rounded-2xl"
+            ></iframe>
           </div>
         </div>
       </div>

@@ -413,6 +413,7 @@ export default function Home({ posts }) {
                   alt="NIKE AIR"
                   width={800}
                   height={450}
+                  layout="responsive"
                 />
               </div>
             </div>
@@ -452,6 +453,7 @@ export default function Home({ posts }) {
                   alt="NIKE AIR"
                   width={800}
                   height={450}
+                  layout="responsive"
                 />
               </div>
             </div>
@@ -478,6 +480,7 @@ export default function Home({ posts }) {
                   alt="NIKE AIR"
                   width={800}
                   height={450}
+                  layout="responsive"
                 />
               </div>
             </div>
@@ -504,6 +507,7 @@ export default function Home({ posts }) {
                   alt="NIKE AIR"
                   width={800}
                   height={450}
+                  layout="responsive"
                 />
               </div>
             </div>

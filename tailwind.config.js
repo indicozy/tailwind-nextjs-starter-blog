@@ -24,7 +24,6 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
         mont: ['Montserrat Alternates', ...defaultTheme.fontFamily.sans],
-        robo: ['Roboto', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.cyan,
@@ -33,8 +32,8 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            fontFamily: 'Roboto',
-            color: theme('colors.gray.700'),
+            fontFamily: 'Montserrat',
+            color: theme('colors.gray.800'),
             fontWeight: '400',
             fontSize: '16px',
             lineHeight: '1.6',
@@ -117,7 +116,7 @@ module.exports = {
         },
         dark: {
           css: {
-            color: theme('colors.gray.300'),
+            color: theme('colors.gray.200'),
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {

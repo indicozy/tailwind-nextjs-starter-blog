@@ -525,7 +525,7 @@ export default function Home({ posts }) {
           </h2>
         </div>
         <div className=" mx-auto mb-20 flex flex-wrap">
-          <div className="w-full p-4 md:w-1/2 lg:w-1/3 ">
+          <div className="w-full p-4 md:w-1/2 lg:w-1/2 ">
             <div className="rounded-xl bg-gray-100 p-8 dark:bg-gray-800">
               <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Free</h2>
               <h5 className="py-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">
@@ -622,77 +622,7 @@ export default function Home({ posts }) {
               </a>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 ">
-            <div className="rounded-xl bg-gray-100 p-8 dark:bg-gray-800">
-              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Lite</h2>
-              <h5 className="py-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">
-                8,500₸<small className="text-lg">/мес.</small>
-              </h5>
-              <hr />
-              <div className="my-4 flex flex-col items-center text-base">
-                <p className="my-1 flex w-full items-center">
-                  <svg
-                    className="mr-2 text-primary-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                  </svg>{' '}
-                  Включает пакет Free{' '}
-                </p>
-                <p className="my-1 flex w-full items-center">
-                  <svg
-                    className="mr-2 text-primary-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                  </svg>{' '}
-                  Поддержка менторов{' '}
-                </p>
-                <p className="my-1 flex w-full items-center">
-                  <svg
-                    className="mr-2 text-primary-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                  </svg>{' '}
-                  Совместная разработка{' '}
-                </p>
-                <p className="my-1 flex w-full items-center">
-                  <svg
-                    className="mr-2 text-primary-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                  </svg>{' '}
-                  Доступ к Agile-платформе{' '}
-                </p>
-              </div>
-              <Link
-                href="#form"
-                className="my-4 block w-full rounded bg-primary-500 px-4 py-2 text-center text-gray-100 hover:bg-primary-700"
-              >
-                {' '}
-                Подписаться{' '}
-              </Link>
-            </div>
-          </div>
-          <div className="w-full p-4 md:w-1/2 lg:w-1/3 ">
+          <div className="w-full p-4 md:w-1/2 lg:w-1/2 ">
             <div className="rounded-xl bg-gray-100 p-8 dark:bg-gray-800">
               <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
                 Pro (в разработке)
